@@ -1,0 +1,1020 @@
+{
+  "version": 1,
+  "queries": [
+    {
+      "query_id": "q_backups_00",
+      "query": "What is the backup policy for cluster 0?",
+      "document_id": "backups_00",
+      "gold_child_contains": [
+        "every 6 hours"
+      ],
+      "gold_context_contains": [
+        "every 6 hours",
+        "Backup Policy"
+      ],
+      "metadata": {
+        "topic": "backups",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_backups_01",
+      "query": "What is the backup policy for cluster 1?",
+      "document_id": "backups_01",
+      "gold_child_contains": [
+        "every 6 hours"
+      ],
+      "gold_context_contains": [
+        "every 6 hours",
+        "Backup Policy"
+      ],
+      "metadata": {
+        "topic": "backups",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_backups_02",
+      "query": "What is the backup policy for cluster 2?",
+      "document_id": "backups_02",
+      "gold_child_contains": [
+        "every 6 hours"
+      ],
+      "gold_context_contains": [
+        "every 6 hours",
+        "Backup Policy"
+      ],
+      "metadata": {
+        "topic": "backups",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_backups_03",
+      "query": "What is the backup policy for cluster 3?",
+      "document_id": "backups_03",
+      "gold_child_contains": [
+        "every 6 hours"
+      ],
+      "gold_context_contains": [
+        "every 6 hours",
+        "Backup Policy"
+      ],
+      "metadata": {
+        "topic": "backups",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_backups_04",
+      "query": "What is the backup policy for cluster 4?",
+      "document_id": "backups_04",
+      "gold_child_contains": [
+        "every 6 hours"
+      ],
+      "gold_context_contains": [
+        "every 6 hours",
+        "Backup Policy"
+      ],
+      "metadata": {
+        "topic": "backups",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_retention_00",
+      "query": "What is the retention rules for cluster 0?",
+      "document_id": "retention_00",
+      "gold_child_contains": [
+        "30 days"
+      ],
+      "gold_context_contains": [
+        "30 days",
+        "Retention Rules"
+      ],
+      "metadata": {
+        "topic": "retention",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_retention_01",
+      "query": "What is the retention rules for cluster 1?",
+      "document_id": "retention_01",
+      "gold_child_contains": [
+        "30 days"
+      ],
+      "gold_context_contains": [
+        "30 days",
+        "Retention Rules"
+      ],
+      "metadata": {
+        "topic": "retention",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_retention_02",
+      "query": "What is the retention rules for cluster 2?",
+      "document_id": "retention_02",
+      "gold_child_contains": [
+        "30 days"
+      ],
+      "gold_context_contains": [
+        "30 days",
+        "Retention Rules"
+      ],
+      "metadata": {
+        "topic": "retention",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_retention_03",
+      "query": "What is the retention rules for cluster 3?",
+      "document_id": "retention_03",
+      "gold_child_contains": [
+        "30 days"
+      ],
+      "gold_context_contains": [
+        "30 days",
+        "Retention Rules"
+      ],
+      "metadata": {
+        "topic": "retention",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_retention_04",
+      "query": "What is the retention rules for cluster 4?",
+      "document_id": "retention_04",
+      "gold_child_contains": [
+        "30 days"
+      ],
+      "gold_context_contains": [
+        "30 days",
+        "Retention Rules"
+      ],
+      "metadata": {
+        "topic": "retention",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_restore_00",
+      "query": "What is the restore process for cluster 0?",
+      "document_id": "restore_00",
+      "gold_child_contains": [
+        "require approval"
+      ],
+      "gold_context_contains": [
+        "require approval",
+        "Restore Process"
+      ],
+      "metadata": {
+        "topic": "restore",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_restore_01",
+      "query": "What is the restore process for cluster 1?",
+      "document_id": "restore_01",
+      "gold_child_contains": [
+        "require approval"
+      ],
+      "gold_context_contains": [
+        "require approval",
+        "Restore Process"
+      ],
+      "metadata": {
+        "topic": "restore",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_restore_02",
+      "query": "What is the restore process for cluster 2?",
+      "document_id": "restore_02",
+      "gold_child_contains": [
+        "require approval"
+      ],
+      "gold_context_contains": [
+        "require approval",
+        "Restore Process"
+      ],
+      "metadata": {
+        "topic": "restore",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_restore_03",
+      "query": "What is the restore process for cluster 3?",
+      "document_id": "restore_03",
+      "gold_child_contains": [
+        "require approval"
+      ],
+      "gold_context_contains": [
+        "require approval",
+        "Restore Process"
+      ],
+      "metadata": {
+        "topic": "restore",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_restore_04",
+      "query": "What is the restore process for cluster 4?",
+      "document_id": "restore_04",
+      "gold_child_contains": [
+        "require approval"
+      ],
+      "gold_context_contains": [
+        "require approval",
+        "Restore Process"
+      ],
+      "metadata": {
+        "topic": "restore",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_replication_00",
+      "query": "What is the replication for cluster 0?",
+      "document_id": "replication_00",
+      "gold_child_contains": [
+        "cross-region"
+      ],
+      "gold_context_contains": [
+        "cross-region",
+        "Replication"
+      ],
+      "metadata": {
+        "topic": "replication",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_replication_01",
+      "query": "What is the replication for cluster 1?",
+      "document_id": "replication_01",
+      "gold_child_contains": [
+        "cross-region"
+      ],
+      "gold_context_contains": [
+        "cross-region",
+        "Replication"
+      ],
+      "metadata": {
+        "topic": "replication",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_replication_02",
+      "query": "What is the replication for cluster 2?",
+      "document_id": "replication_02",
+      "gold_child_contains": [
+        "cross-region"
+      ],
+      "gold_context_contains": [
+        "cross-region",
+        "Replication"
+      ],
+      "metadata": {
+        "topic": "replication",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_replication_03",
+      "query": "What is the replication for cluster 3?",
+      "document_id": "replication_03",
+      "gold_child_contains": [
+        "cross-region"
+      ],
+      "gold_context_contains": [
+        "cross-region",
+        "Replication"
+      ],
+      "metadata": {
+        "topic": "replication",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_replication_04",
+      "query": "What is the replication for cluster 4?",
+      "document_id": "replication_04",
+      "gold_child_contains": [
+        "cross-region"
+      ],
+      "gold_context_contains": [
+        "cross-region",
+        "Replication"
+      ],
+      "metadata": {
+        "topic": "replication",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_encryption_00",
+      "query": "What is the encryption for cluster 0?",
+      "document_id": "encryption_00",
+      "gold_child_contains": [
+        "AES-256"
+      ],
+      "gold_context_contains": [
+        "AES-256",
+        "Encryption"
+      ],
+      "metadata": {
+        "topic": "encryption",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_encryption_01",
+      "query": "What is the encryption for cluster 1?",
+      "document_id": "encryption_01",
+      "gold_child_contains": [
+        "AES-256"
+      ],
+      "gold_context_contains": [
+        "AES-256",
+        "Encryption"
+      ],
+      "metadata": {
+        "topic": "encryption",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_encryption_02",
+      "query": "What is the encryption for cluster 2?",
+      "document_id": "encryption_02",
+      "gold_child_contains": [
+        "AES-256"
+      ],
+      "gold_context_contains": [
+        "AES-256",
+        "Encryption"
+      ],
+      "metadata": {
+        "topic": "encryption",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_encryption_03",
+      "query": "What is the encryption for cluster 3?",
+      "document_id": "encryption_03",
+      "gold_child_contains": [
+        "AES-256"
+      ],
+      "gold_context_contains": [
+        "AES-256",
+        "Encryption"
+      ],
+      "metadata": {
+        "topic": "encryption",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_encryption_04",
+      "query": "What is the encryption for cluster 4?",
+      "document_id": "encryption_04",
+      "gold_child_contains": [
+        "AES-256"
+      ],
+      "gold_context_contains": [
+        "AES-256",
+        "Encryption"
+      ],
+      "metadata": {
+        "topic": "encryption",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_auth_00",
+      "query": "What is the authentication for cluster 0?",
+      "document_id": "auth_00",
+      "gold_child_contains": [
+        "SSO only"
+      ],
+      "gold_context_contains": [
+        "SSO only",
+        "Authentication"
+      ],
+      "metadata": {
+        "topic": "auth",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_auth_01",
+      "query": "What is the authentication for cluster 1?",
+      "document_id": "auth_01",
+      "gold_child_contains": [
+        "SSO only"
+      ],
+      "gold_context_contains": [
+        "SSO only",
+        "Authentication"
+      ],
+      "metadata": {
+        "topic": "auth",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_auth_02",
+      "query": "What is the authentication for cluster 2?",
+      "document_id": "auth_02",
+      "gold_child_contains": [
+        "SSO only"
+      ],
+      "gold_context_contains": [
+        "SSO only",
+        "Authentication"
+      ],
+      "metadata": {
+        "topic": "auth",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_auth_03",
+      "query": "What is the authentication for cluster 3?",
+      "document_id": "auth_03",
+      "gold_child_contains": [
+        "SSO only"
+      ],
+      "gold_context_contains": [
+        "SSO only",
+        "Authentication"
+      ],
+      "metadata": {
+        "topic": "auth",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_auth_04",
+      "query": "What is the authentication for cluster 4?",
+      "document_id": "auth_04",
+      "gold_child_contains": [
+        "SSO only"
+      ],
+      "gold_context_contains": [
+        "SSO only",
+        "Authentication"
+      ],
+      "metadata": {
+        "topic": "auth",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_rate_limit_00",
+      "query": "What is the rate limits for cluster 0?",
+      "document_id": "rate_limit_00",
+      "gold_child_contains": [
+        "100 requests per minute"
+      ],
+      "gold_context_contains": [
+        "100 requests per minute",
+        "Rate Limits"
+      ],
+      "metadata": {
+        "topic": "rate_limit",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_rate_limit_01",
+      "query": "What is the rate limits for cluster 1?",
+      "document_id": "rate_limit_01",
+      "gold_child_contains": [
+        "100 requests per minute"
+      ],
+      "gold_context_contains": [
+        "100 requests per minute",
+        "Rate Limits"
+      ],
+      "metadata": {
+        "topic": "rate_limit",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_rate_limit_02",
+      "query": "What is the rate limits for cluster 2?",
+      "document_id": "rate_limit_02",
+      "gold_child_contains": [
+        "100 requests per minute"
+      ],
+      "gold_context_contains": [
+        "100 requests per minute",
+        "Rate Limits"
+      ],
+      "metadata": {
+        "topic": "rate_limit",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_rate_limit_03",
+      "query": "What is the rate limits for cluster 3?",
+      "document_id": "rate_limit_03",
+      "gold_child_contains": [
+        "100 requests per minute"
+      ],
+      "gold_context_contains": [
+        "100 requests per minute",
+        "Rate Limits"
+      ],
+      "metadata": {
+        "topic": "rate_limit",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_rate_limit_04",
+      "query": "What is the rate limits for cluster 4?",
+      "document_id": "rate_limit_04",
+      "gold_child_contains": [
+        "100 requests per minute"
+      ],
+      "gold_context_contains": [
+        "100 requests per minute",
+        "Rate Limits"
+      ],
+      "metadata": {
+        "topic": "rate_limit",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_timeouts_00",
+      "query": "What is the timeouts for cluster 0?",
+      "document_id": "timeouts_00",
+      "gold_child_contains": [
+        "30 seconds"
+      ],
+      "gold_context_contains": [
+        "30 seconds",
+        "Timeouts"
+      ],
+      "metadata": {
+        "topic": "timeouts",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_timeouts_01",
+      "query": "What is the timeouts for cluster 1?",
+      "document_id": "timeouts_01",
+      "gold_child_contains": [
+        "30 seconds"
+      ],
+      "gold_context_contains": [
+        "30 seconds",
+        "Timeouts"
+      ],
+      "metadata": {
+        "topic": "timeouts",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_timeouts_02",
+      "query": "What is the timeouts for cluster 2?",
+      "document_id": "timeouts_02",
+      "gold_child_contains": [
+        "30 seconds"
+      ],
+      "gold_context_contains": [
+        "30 seconds",
+        "Timeouts"
+      ],
+      "metadata": {
+        "topic": "timeouts",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_timeouts_03",
+      "query": "What is the timeouts for cluster 3?",
+      "document_id": "timeouts_03",
+      "gold_child_contains": [
+        "30 seconds"
+      ],
+      "gold_context_contains": [
+        "30 seconds",
+        "Timeouts"
+      ],
+      "metadata": {
+        "topic": "timeouts",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_timeouts_04",
+      "query": "What is the timeouts for cluster 4?",
+      "document_id": "timeouts_04",
+      "gold_child_contains": [
+        "30 seconds"
+      ],
+      "gold_context_contains": [
+        "30 seconds",
+        "Timeouts"
+      ],
+      "metadata": {
+        "topic": "timeouts",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_caching_00",
+      "query": "What is the caching for cluster 0?",
+      "document_id": "caching_00",
+      "gold_child_contains": [
+        "5 minute TTL"
+      ],
+      "gold_context_contains": [
+        "5 minute TTL",
+        "Caching"
+      ],
+      "metadata": {
+        "topic": "caching",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_caching_01",
+      "query": "What is the caching for cluster 1?",
+      "document_id": "caching_01",
+      "gold_child_contains": [
+        "5 minute TTL"
+      ],
+      "gold_context_contains": [
+        "5 minute TTL",
+        "Caching"
+      ],
+      "metadata": {
+        "topic": "caching",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_caching_02",
+      "query": "What is the caching for cluster 2?",
+      "document_id": "caching_02",
+      "gold_child_contains": [
+        "5 minute TTL"
+      ],
+      "gold_context_contains": [
+        "5 minute TTL",
+        "Caching"
+      ],
+      "metadata": {
+        "topic": "caching",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_caching_03",
+      "query": "What is the caching for cluster 3?",
+      "document_id": "caching_03",
+      "gold_child_contains": [
+        "5 minute TTL"
+      ],
+      "gold_context_contains": [
+        "5 minute TTL",
+        "Caching"
+      ],
+      "metadata": {
+        "topic": "caching",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_caching_04",
+      "query": "What is the caching for cluster 4?",
+      "document_id": "caching_04",
+      "gold_child_contains": [
+        "5 minute TTL"
+      ],
+      "gold_context_contains": [
+        "5 minute TTL",
+        "Caching"
+      ],
+      "metadata": {
+        "topic": "caching",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_logging_00",
+      "query": "What is the logging for cluster 0?",
+      "document_id": "logging_00",
+      "gold_child_contains": [
+        "JSON lines"
+      ],
+      "gold_context_contains": [
+        "JSON lines",
+        "Logging"
+      ],
+      "metadata": {
+        "topic": "logging",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_logging_01",
+      "query": "What is the logging for cluster 1?",
+      "document_id": "logging_01",
+      "gold_child_contains": [
+        "JSON lines"
+      ],
+      "gold_context_contains": [
+        "JSON lines",
+        "Logging"
+      ],
+      "metadata": {
+        "topic": "logging",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_logging_02",
+      "query": "What is the logging for cluster 2?",
+      "document_id": "logging_02",
+      "gold_child_contains": [
+        "JSON lines"
+      ],
+      "gold_context_contains": [
+        "JSON lines",
+        "Logging"
+      ],
+      "metadata": {
+        "topic": "logging",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_logging_03",
+      "query": "What is the logging for cluster 3?",
+      "document_id": "logging_03",
+      "gold_child_contains": [
+        "JSON lines"
+      ],
+      "gold_context_contains": [
+        "JSON lines",
+        "Logging"
+      ],
+      "metadata": {
+        "topic": "logging",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_logging_04",
+      "query": "What is the logging for cluster 4?",
+      "document_id": "logging_04",
+      "gold_child_contains": [
+        "JSON lines"
+      ],
+      "gold_context_contains": [
+        "JSON lines",
+        "Logging"
+      ],
+      "metadata": {
+        "topic": "logging",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_metrics_00",
+      "query": "What is the metrics for cluster 0?",
+      "document_id": "metrics_00",
+      "gold_child_contains": [
+        "Prometheus"
+      ],
+      "gold_context_contains": [
+        "Prometheus",
+        "Metrics"
+      ],
+      "metadata": {
+        "topic": "metrics",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_metrics_01",
+      "query": "What is the metrics for cluster 1?",
+      "document_id": "metrics_01",
+      "gold_child_contains": [
+        "Prometheus"
+      ],
+      "gold_context_contains": [
+        "Prometheus",
+        "Metrics"
+      ],
+      "metadata": {
+        "topic": "metrics",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_metrics_02",
+      "query": "What is the metrics for cluster 2?",
+      "document_id": "metrics_02",
+      "gold_child_contains": [
+        "Prometheus"
+      ],
+      "gold_context_contains": [
+        "Prometheus",
+        "Metrics"
+      ],
+      "metadata": {
+        "topic": "metrics",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_metrics_03",
+      "query": "What is the metrics for cluster 3?",
+      "document_id": "metrics_03",
+      "gold_child_contains": [
+        "Prometheus"
+      ],
+      "gold_context_contains": [
+        "Prometheus",
+        "Metrics"
+      ],
+      "metadata": {
+        "topic": "metrics",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_metrics_04",
+      "query": "What is the metrics for cluster 4?",
+      "document_id": "metrics_04",
+      "gold_child_contains": [
+        "Prometheus"
+      ],
+      "gold_context_contains": [
+        "Prometheus",
+        "Metrics"
+      ],
+      "metadata": {
+        "topic": "metrics",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_alerts_00",
+      "query": "What is the alerting for cluster 0?",
+      "document_id": "alerts_00",
+      "gold_child_contains": [
+        "PagerDuty"
+      ],
+      "gold_context_contains": [
+        "PagerDuty",
+        "Alerting"
+      ],
+      "metadata": {
+        "topic": "alerts",
+        "variant": 0
+      }
+    },
+    {
+      "query_id": "q_alerts_01",
+      "query": "What is the alerting for cluster 1?",
+      "document_id": "alerts_01",
+      "gold_child_contains": [
+        "PagerDuty"
+      ],
+      "gold_context_contains": [
+        "PagerDuty",
+        "Alerting"
+      ],
+      "metadata": {
+        "topic": "alerts",
+        "variant": 1
+      }
+    },
+    {
+      "query_id": "q_alerts_02",
+      "query": "What is the alerting for cluster 2?",
+      "document_id": "alerts_02",
+      "gold_child_contains": [
+        "PagerDuty"
+      ],
+      "gold_context_contains": [
+        "PagerDuty",
+        "Alerting"
+      ],
+      "metadata": {
+        "topic": "alerts",
+        "variant": 2
+      }
+    },
+    {
+      "query_id": "q_alerts_03",
+      "query": "What is the alerting for cluster 3?",
+      "document_id": "alerts_03",
+      "gold_child_contains": [
+        "PagerDuty"
+      ],
+      "gold_context_contains": [
+        "PagerDuty",
+        "Alerting"
+      ],
+      "metadata": {
+        "topic": "alerts",
+        "variant": 3
+      }
+    },
+    {
+      "query_id": "q_alerts_04",
+      "query": "What is the alerting for cluster 4?",
+      "document_id": "alerts_04",
+      "gold_child_contains": [
+        "PagerDuty"
+      ],
+      "gold_context_contains": [
+        "PagerDuty",
+        "Alerting"
+      ],
+      "metadata": {
+        "topic": "alerts",
+        "variant": 4
+      }
+    },
+    {
+      "query_id": "q_extra_backups_00",
+      "query": "How often are backups performed?",
+      "document_id": "backups_00",
+      "gold_child_contains": [
+        "every 6 hours"
+      ],
+      "gold_context_contains": [
+        "every 6 hours"
+      ]
+    },
+    {
+      "query_id": "q_extra_retention_00",
+      "query": "How long are backups retained?",
+      "document_id": "retention_00",
+      "gold_child_contains": [
+        "30 days"
+      ],
+      "gold_context_contains": [
+        "30 days"
+      ]
+    },
+    {
+      "query_id": "q_extra_restore_00",
+      "query": "Do restore requests need approval?",
+      "document_id": "restore_00",
+      "gold_child_contains": [
+        "require approval"
+      ],
+      "gold_context_contains": [
+        "require approval"
+      ]
+    },
+    {
+      "query_id": "q_extra_encryption_00",
+      "query": "What encryption is used at rest?",
+      "document_id": "encryption_00",
+      "gold_child_contains": [
+        "AES-256"
+      ],
+      "gold_context_contains": [
+        "AES-256"
+      ]
+    },
+    {
+      "query_id": "q_extra_rate_limit_00",
+      "query": "What is the API rate limit?",
+      "document_id": "rate_limit_00",
+      "gold_child_contains": [
+        "100 requests per minute"
+      ],
+      "gold_context_contains": [
+        "100 requests per minute"
+      ]
+    }
+  ]
+}
