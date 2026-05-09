@@ -53,7 +53,6 @@ def evaluate_index(
     window_size: int = 2,
 ) -> dict[str, Any]:
     index = load_index(index_path)
-    children_texts = {c.chunk_id: c.text for c in index.children}
     rows: list[dict[str, float]] = []
     details: list[dict[str, Any]] = []
 

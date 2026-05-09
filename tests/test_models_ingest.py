@@ -38,7 +38,6 @@ def test_ingest_file(tmp_path: Path):
     doc = ingest_file(path)
     assert doc.document_id == "sample"
     assert doc.text.startswith("# Title")
-    assert doc.start_char if False else True  # noqa: keep simple
     assert "Title" in doc.text
 
 
